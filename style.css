@@ -1,0 +1,504 @@
+@font-face {
+  font-family: Quattrocento;
+  src: url("fonts/Quattrocento-Regular.ttf");
+}
+@font-face {
+  font-family: Quattrocento;
+  font-weight: bold;
+  src: url("fonts/Quattrocento-Bold.ttf");
+}
+
+@font-face {
+  font-family: ParmaPetit;
+  src: url("fonts/ParmaPetit-Normal.ttf");
+}
+
+:root {
+  --wine: #ab0d25ff;
+  --gray: #7f765aff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Quattrocento, "serif";
+  resize: none;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.header > a {
+  max-width: 25vw;
+}
+
+.header > a > img {
+  max-width: 100%;
+  max-height: 140px;
+}
+
+/* BARRA MENU */
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.menu > a {
+  font-size: 24px;
+  color: black;
+}
+
+/* CAROUSEL */
+
+.caroussel {
+  overflow: hidden;
+}
+
+.caroussel figure {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  animation: 120s slideCaroussel infinite;
+}
+
+.caroussel figure img {
+  min-width: 100%;
+  float: right;
+}
+
+@keyframes slideCaroussel {
+  0% {
+    left: 0;
+  }
+  4.2% {
+    left: -100%;
+  }
+  8.4% {
+    left: -200%;
+  }
+  12.6% {
+    left: -300%;
+  }
+  16.8% {
+    left: -400%;
+  }
+  21% {
+    left: -500%;
+  }
+  25.2% {
+    left: -600%;
+  }
+  29.4% {
+    left: -700%;
+  }
+  33.6% {
+    left: -800%;
+  }
+  37.8% {
+    left: -900%;
+  }
+  42% {
+    left: -1000%;
+  }
+  46.2% {
+    left: -1100%;
+  }
+  50.4% {
+    left: -1100%;
+  }
+  54.6% {
+    left: -1000%;
+  }
+  58.8% {
+    left: -900%;
+  }
+  63% {
+    left: -800%;
+  }
+  67.2% {
+    left: -700%;
+  }
+  71.4% {
+    left: -600%;
+  }
+  75.6% {
+    left: -500%;
+  }
+  79.8% {
+    left: -400%;
+  }
+  84% {
+    left: -300%;
+  }
+  88.2% {
+    left: -200%;
+  }
+  92.4% {
+    left: -100%;
+  }
+}
+
+/* HISTORIA */
+
+.historia {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.historia > .esquerda > h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.historia > .esquerda > img {
+  width: 60%;
+  border-radius: 8px;
+}
+
+.historia p {
+  font-size: 22px;
+}
+
+/* BRASSERIE */
+
+#brasserie {
+  border-radius: 380px 380px 0 0 / 240px 240px 0 0;
+  padding: 34px 24px 16px;
+  border: 6px solid var(--wine);
+  outline: 3px solid var(--wine);
+  outline-offset: 5px;
+  border-bottom: none;
+}
+
+#brasserie > .top {
+  position: relative;
+}
+
+#brasserie > .top > img {
+  max-width: 100%;
+}
+
+#brasserie > .top > .links {
+  position: absolute;
+  top: 55%;
+  right: 3%;
+}
+
+#brasserie > .top > .links > a > i {
+  font-size: 54px;
+  color: black;
+  margin-right: 12px;
+}
+
+#brasserie > .menu {
+  margin-top: 16px;
+  background-color: var(--wine);
+  padding: 4px;
+  height: 32px;
+  justify-content: space-evenly;
+  border-radius: 2px;
+  /* align-items: center; */
+}
+
+#brasserie > .menu > a {
+  color: white;
+}
+
+/* UNIDADES BRASSERIE */
+
+.unidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.unidade > .endereco {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+.unidade > .endereco > i {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.unidade > .telefone,
+.zap {
+  color: black;
+  font-size: 24px;
+}
+
+.unidade > .horarios {
+  margin-top: 16px;
+  color: black;
+  font-size: 20px;
+}
+
+.unidade > .horarios > i {
+  color: var(--wine);
+  font-style: normal;
+}
+
+.carousselMini {
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.carousselMini figure {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 33s slideCarousselMini infinite;
+}
+
+.carousselMini figure img {
+  width: 20%;
+  float: right;
+}
+
+@keyframes slideCarousselMini {
+  0% {
+    left: 0;
+  }
+  22% {
+    left: 0;
+  }
+  33% {
+    left: -100%;
+  }
+  55% {
+    left: -100%;
+  }
+  66% {
+    left: -200%;
+  }
+  88% {
+    left: -200%;
+  }
+}
+
+/* PETIT */
+
+#petit {
+  margin-top: 10px;
+  padding: 24px 24px 16px;
+  border: 6px solid var(--wine);
+  outline: 3px solid var(--wine);
+  outline-offset: 5px;
+  border-top: none;
+  border-radius: 0 0 16px 16px;
+}
+
+#petit > .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#petit > .top > img {
+  width: 200px;
+}
+
+#petit > .top > .texto > h3 {
+  font-family: ParmaPetit;
+  font-size: 38px;
+  font-weight: normal;
+  text-align: center;
+}
+#petit > .top > .texto > p {
+  font-size: 22px;
+  text-align: center;
+}
+
+#petit > .top > .links > a > i {
+  font-size: 54px;
+  margin-right: 12px;
+  color: black;
+}
+
+#petit > .bottom {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  justify-content: end;
+}
+
+#petit > .bottom > .carousselMini {
+  position: absolute;
+  width: calc(50% - 32px);
+  left: 0;
+}
+
+#petit > .bottom > .info {
+  text-align: left;
+  min-width: 50%;
+}
+
+#petit > .bottom > .info > .endereco {
+  font-weight: bold;
+}
+
+#petit > .bottom > .info > .endereco,
+.telefone {
+  font-size: 30px;
+  color: black;
+}
+
+#petit > .bottom > .info > p {
+  font-size: 24px;
+}
+
+#petit .cardapio {
+  background-color: var(--wine);
+  color: white;
+  margin-top: 16px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  font-size: 28px;
+  border-radius: 2px;
+}
+
+/*  RADIO */
+
+.radio {
+  display: flex;
+  align-items: end;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.radio > a {
+  width: 50%;
+}
+
+.radio > a > img {
+  width: 100%;
+}
+
+.radio > p {
+  font-family: ParmaPetit;
+  font-size: 28px;
+  width: 50%;
+}
+
+#boulangerie {
+  background-image: url("images/C. IMAGENS OUTRAS/boulangerieBG.svg");
+  background-size: calc(100% + 10px);
+  background-position: -5px 60px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 34px 34px 0;
+  margin-bottom: 60px;
+  border-width: 6px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      transparent,
+      transparent,
+      transparent,
+      var(--gray),
+      var(--gray)
+    )
+    1;
+}
+
+#boulangerie > .top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+#boulangerie > .top > .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#boulangerie > .top > .info > .endereco {
+  font-weight: bold;
+}
+
+#boulangerie > .top > .info > .endereco > i {
+  font-weight: normal;
+  font-style: normal;
+}
+
+#boulangerie > .top > .info > .endereco,
+.zap {
+  font-size: 30px;
+  color: black;
+}
+
+#boulangerie > .top > .info > p {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#boulangerie > .menu {
+  background-color: var(--gray);
+  padding: 6px;
+  height: 32px;
+  justify-content: space-evenly;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+#boulangerie > .menu > a {
+  color: white;
+  font-size: 20px;
+}
+
+#boulangerie > .links {
+  position: absolute;
+  top: 60px;
+  left: 40%;
+}
+
+#boulangerie > .links > a > i {
+  font-size: 54px;
+  margin-right: 12px;
+  color: black;
+}

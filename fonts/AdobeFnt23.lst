@@ -1,0 +1,127 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/claudialammoglia/Desktop/LEJAZZ/ARQUIVOSFINAIS/9. SITE/2024/ PASTA FINAL SITE LE JAZZ NOVEMBRO 2024/Document fonts/AdobeFnt23.lst
+FileLength:2853
+FileModTime:754671392
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/claudialammoglia/Desktop/LEJAZZ/ARQUIVOSFINAIS/9. SITE/2024/ PASTA FINAL SITE LE JAZZ NOVEMBRO 2024/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:184404
+FileModTime:74470701
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ParmaPetit-Normal
+FamilyName:ParmaPetit
+StyleName:Regular
+MenuName:ParmaPetit
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:ParmaPetit-Normal
+WritingScript:Roman
+OutlineFileName:/Users/claudialammoglia/Desktop/LEJAZZ/ARQUIVOSFINAIS/9. SITE/2024/ PASTA FINAL SITE LE JAZZ NOVEMBRO 2024/Document fonts/ParmaPetit-Normal.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55724
+FileModTime:119995484
+NameArray:0,Mac,4,ParmaPetit-Normal
+NameArray:0,Win,1,ParmaPetit
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Quattrocento-Bold
+FamilyName:Quattrocento
+StyleName:Bold
+MenuName:Quattrocento
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Quattrocento Bold
+WritingScript:Roman
+OutlineFileName:/Users/claudialammoglia/Desktop/LEJAZZ/ARQUIVOSFINAIS/9. SITE/2024/ PASTA FINAL SITE LE JAZZ NOVEMBRO 2024/Document fonts/Quattrocento-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153980
+FileModTime:747184280
+NameArray:0,Win,1,Quattrocento
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Quattrocento
+FamilyName:Quattrocento
+StyleName:Regular
+MenuName:Quattrocento
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Quattrocento
+WritingScript:Roman
+OutlineFileName:/Users/claudialammoglia/Desktop/LEJAZZ/ARQUIVOSFINAIS/9. SITE/2024/ PASTA FINAL SITE LE JAZZ NOVEMBRO 2024/Document fonts/Quattrocento-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:147732
+FileModTime:747184280
+NameArray:0,Win,1,Quattrocento
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Roman
+FamilyName:Times
+StyleName:Regular
+MenuName:Times
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Times Roman
+WritingScript:Roman
+OutlineFileName:/Users/claudialammoglia/Desktop/LEJAZZ/ARQUIVOSFINAIS/9. SITE/2024/ PASTA FINAL SITE LE JAZZ NOVEMBRO 2024/Document fonts/Times.dfont
+DataFormat:sfntResource
+ResourceID:13494
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1763409
+FileModTime:217664969
+NameArray:0,Mac,4,Times Roman
+%EndFont
+
