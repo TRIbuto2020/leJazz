@@ -11,6 +11,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link
       rel="shortcut icon"
       href="./images/D. Logos/icon.svg"
@@ -43,7 +44,7 @@
           target="_blank"
           >RESERVAS</a
         >
-        <img src="/images/C. IMAGENS OUTRAS/spacer.svg" alt="" />
+        <img src="/images/C. IMAGENS OUTRAS/spacer.svg" alt="" class="stay" />
         <a
           href="https://www.ifood.com.br/delivery/sao-paulo-sp/le-jazz-brasserie---jardins-cerqueira-cesar/c9bdca92-dc99-4b5a-a721-c40713c25a78"
           target="_blank"
@@ -52,7 +53,7 @@
         <img src="/images/C. IMAGENS OUTRAS/spacer.svg" alt="" />
 
         <a href="mailto: brasserie@lejazz.com.br">ENTRE EM CONTATO</a>
-        <img src="/images/C. IMAGENS OUTRAS/spacer.svg" alt="" />
+        <img src="/images/C. IMAGENS OUTRAS/spacer.svg" alt="" class="stay" />
 
         <a href="https://lejazzbrasserie.gupy.io/" target="_blank"
           >TRABALHE CONOSCO</a
@@ -80,7 +81,12 @@
       <div class="historia">
         <div class="esquerda">
           <h3>A NOSSA HISTÓRIA</h3>
-          <img src="./images/C. IMAGENS OUTRAS/DSC08276.jpg" alt="" />
+          <a
+            href="https://wa.me/5511942169564?text=Olá, gostaria de informações sobre o livro..."
+            class="livroDesktop"
+          >
+            <img src="./images/C. IMAGENS OUTRAS/DSC08276.jpg" alt="" />
+          </a>
         </div>
         <div class="direita">
           <p>
@@ -89,20 +95,25 @@
             saborosos, Le Jazz Brasserie nasceu e trouxe um novo conceito muito
             bem amarrado, que vai do cardápio à decoração, do serviço ao jazz
             como elementos-chave de sua personalidade.
-          </p>
-          <br />
-          <p>
-            Hoje, 15 anos depois da abertura da primeira unidade em Pinheiros,
-            mantém a fidelidade a seus princípios, sua filosofia de cozinha e
-            sua hospitalidade cordial. Esse mesmo sucesso estimulou a chegada da
-            segunda unidade, em 2012, na Rua Dr. Melo Alves, Jardins. A terceira
-            casa, dentro do Shopping Iguatemi, foi inaugurada em 2013. No final
-            de 2015, veio a quarta unidade, também em Pinheiros, o bar Le Jazz
-            Petit. Em junho de 2019, Le Jazz Brasserie abriu suas portas no
-            Shopping Pátio Higienópolis. E foi em março de 2023 que surgiu,
-            então, a padaria franco-paulistana do grupo – Le Jazz Boulangerie.
+
+            <br /><br />
+            Pinheiros, mantém a fidelidade a seus princípios, sua filosofia de
+            cozinha e sua hospitalidade cordial. Esse mesmo sucesso estimulou a
+            chegada da segunda unidade, em 2012, na Rua Dr. Melo Alves, Jardins.
+            A terceira casa, dentro do Shopping Iguatemi, foi inaugurada em
+            2013. No final de 2015, veio a quarta unidade, também em Pinheiros,
+            o bar Le Jazz Petit. Em junho de 2019, Le Jazz Brasserie abriu suas
+            portas no Shopping Pátio Higienópolis. E foi em março de 2023 que
+            surgiu, então, a padaria franco-paulistana do grupo – Le Jazz
+            Boulangerie.
           </p>
         </div>
+        <a
+          href="https://wa.me/5511942169564?text=Olá, gostaria de informações sobre o livro..."
+          class="livroMobile"
+        >
+          <img src="./images/C. IMAGENS OUTRAS/DSC08276.jpg" alt=""
+        /></a>
       </div>
 
       <div id="brasserie">
@@ -144,7 +155,33 @@
             >DELIVERY</a
           >
         </div>
+        <div class="menuMobile">
+          <a
+            href="./cardapios/CARDAPIO COMIDA DIGITAL BRASSERIE.pdf"
+            target="_blank"
+            >MENU</a
+          >
+          <img src="/images/C. IMAGENS OUTRAS/spacerWT.svg" alt="" />
+          <a
+            href="./cardapios/CARDAPIO BEBIDA DIGITAL BRASSERIE.pdf"
+            target="_blank"
+            >VINHOS</a
+          >
+          <img src="/images/C. IMAGENS OUTRAS/spacerWT.svg" alt="" />
 
+          <a
+            href="./cardapios/CARDAPIO MENU INFANTIL BRASSERIE.pdf"
+            target="_blank"
+            >INFANTIL</a
+          >
+          <img src="/images/C. IMAGENS OUTRAS/spacerWT.svg" alt="" />
+
+          <a
+            href="https://www.ifood.com.br/delivery/sao-paulo-sp/le-jazz-brasserie---jardins-cerqueira-cesar/c9bdca92-dc99-4b5a-a721-c40713c25a78"
+            target="_blank"
+            >DELIVERY</a
+          >
+        </div>
         <div class="unidades">
           <div class="unidade">
             <div class="carousselMini">
@@ -171,7 +208,7 @@
               >+55 11 2359-8141</a
             >
             <br />
-            <a target="_blank" href="" class="zap">&nbsp</a>
+            <a target="_blank" href="" class="zap hideSmall">&nbsp</a>
             <p class="horarios">
               <i>HORÁRIO DE FUNCIONAMENTO:</i>
               <br />
@@ -243,7 +280,7 @@
               >+55 11 3097-8331</a
             >
             <br />
-            <a target="_blank" href="" class="zap">&nbsp</a>
+            <a target="_blank" href="" class="zap hideSmall">&nbsp</a>
             <p class="horarios">
               <i>HORÁRIO DE FUNCIONAMENTO:</i>
               <br />
@@ -298,11 +335,12 @@
           <div class="texto">
             <h3>A PEQUENA & BOÊMIA CASA DO LE JAZZ</h3>
             <p>
-              Segue a linha dos cocktail-bars experimentais, <br />chegando a
-              uma seleção de 40 coquetéis, entre outros aperitivos
-              <br />clássicos e autorais. No cardápio de petit plats,
-              <br />Ailes de Poulet Frit, Polvo a “La Plancha”, Sanduíche de
-              Leitão...
+              Segue a linha dos cocktail-bars experimentais,
+              <br class="hideSmall" />chegando a uma seleção de 40 coquetéis,
+              entre outros aperitivos <br class="hideSmall" />clássicos e
+              autorais. No cardápio de petit plats,
+              <br class="hideSmall" />Ailes de Poulet Frit, Polvo a “La
+              Plancha”, Sanduíche de Leitão...
             </p>
           </div>
           <div class="links">
@@ -358,6 +396,7 @@
         </p>
       </div>
       <div id="boulangerie">
+        <img src="./images/D. Logos/boulangerie2.svg" alt="" class="logo" />
         <div class="top">
           <div class="info">
             <a
@@ -380,8 +419,7 @@
               BUFFET DE ALMOÇO <br />
               De segunda a sexta, das 12h às 15h.
             </p>
-            <br /><br />
-            <br /><br />
+            <br class="hideSmall" /><br class="hideSmall" />
           </div>
           <div class="carousselMini">
             <figure>
@@ -396,6 +434,31 @@
               />
             </figure>
           </div>
+        </div>
+        <div class="menuMobile">
+          <a href="./cardapios/CARDAPIO LE BOULANGERIE.pdf" target="_blank"
+            >MENU</a
+          >
+          <img src="/images/C. IMAGENS OUTRAS/spacerWT.svg" alt="" />
+          <a
+            href="https://wa.me/5511998144483?text=Olá, gostaria de informações sobre eventos."
+            target="_blank"
+            >EVENTOS</a
+          >
+          <img src="/images/C. IMAGENS OUTRAS/spacerWT.svg" alt="" />
+
+          <a
+            href="https://wa.me/5511998144483?text=Olá, gostaria de fazer uma encomenda."
+            target="_blank"
+            >ENCOMENDAS</a
+          >
+          <img src="/images/C. IMAGENS OUTRAS/spacerWT.svg" alt="" />
+
+          <a
+            href="https://www.ifood.com.br/delivery/sao-paulo-sp/le-jazz-boulangerie---padaria-pinheiros/1d72154a-519c-42be-87ea-76261a720e81"
+            target="_blank"
+            >DELIVERY</a
+          >
         </div>
         <div class="menu">
           <a href="./cardapios/CARDAPIO LE BOULANGERIE.pdf" target="_blank"

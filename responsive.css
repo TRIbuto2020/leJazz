@@ -1,0 +1,177 @@
+@media screen and (max-width: 1023px) {
+  .hideSmall {
+    display: none;
+  }
+
+  .header > a > img {
+    max-height: 50px;
+  }
+
+  .menu > a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .historia > .esquerda > .livroDesktop {
+    display: none;
+    visibility: hidden;
+  }
+
+  .historia > .livroMobile {
+    display: block;
+    width: 100%;
+  }
+  .historia > .livroMobile > img {
+    max-width: 100%;
+  }
+
+  .historia > .direita > p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  #brasserie > .menu {
+    display: none;
+  }
+
+  .menuMobile {
+    display: flex;
+    margin-top: 16px;
+    background-color: var(--wine);
+    padding: 4px;
+    height: 32px;
+    justify-content: space-evenly;
+    border-radius: 2px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .menuMobile > a {
+    color: white;
+    font-size: 12px;
+  }
+
+  .menuMobile > img {
+    height: 16px;
+  }
+
+  .unidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .unidade > .endereco {
+    font-size: 18px;
+  }
+
+  .unidade > .telefone,
+  .zap {
+    font-size: 16px;
+  }
+
+  .unidade > .horarios {
+    font-size: 16px;
+    padding-bottom: 8px;
+    border-bottom: 3px dashed var(--wine);
+  }
+
+  .unidade:last-child > .horarios {
+    border-bottom: none;
+  }
+
+  #petit > .top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #petit > .top > .texto > h3 {
+    font-size: 24px;
+    margin: 8px 0;
+  }
+
+  #petit > .top > .texto > p {
+    font-size: 16px;
+  }
+
+  #petit > .bottom {
+    flex-direction: column;
+  }
+
+  #petit > .bottom > .carousselMini {
+    position: relative;
+    width: 100%;
+  }
+
+  #petit > .bottom > .info > .endereco,
+  .telefone {
+    font-size: 18px;
+    color: black;
+  }
+
+  #petit > .bottom > .info > p {
+    font-size: 16px;
+  }
+
+  #petit .cardapio {
+    font-size: 20px;
+  }
+
+  .radio {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .radio a,
+  .radio p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #boulangerie {
+    background-image: none;
+    border: 6px solid var(--gray);
+    padding: 16px;
+  }
+
+  #boulangerie > .logo {
+    display: block;
+    width: 100%;
+  }
+
+  #boulangerie > .top {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 14px;
+  }
+
+  #boulangerie > .top > .info > .endereco,
+  .zap {
+    font-size: 18px;
+  }
+
+  #boulangerie > .top > .info > p {
+    font-size: 16px;
+  }
+
+  #boulangerie > .menu {
+    display: none;
+  }
+
+  #boulangerie > .menuMobile {
+    background-color: var(--gray);
+    margin-bottom: 0;
+  }
+}

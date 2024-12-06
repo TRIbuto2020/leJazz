@@ -72,6 +72,7 @@ body {
   height: 28px;
   width: 100%;
   margin-bottom: 6px;
+  align-items: center;
 }
 
 .menu > a {
@@ -181,13 +182,17 @@ body {
   grid-template-columns: 1fr 3fr;
 }
 
+.historia > .livroMobile {
+  display: none;
+}
+
 .historia > .esquerda > h3 {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 8px;
 }
 
-.historia > .esquerda > img {
+.historia > .esquerda > a > img {
   width: 60%;
   border-radius: 8px;
 }
@@ -239,6 +244,10 @@ body {
 
 #brasserie > .menu > a {
   color: white;
+}
+
+.menuMobile {
+  display: none;
 }
 
 /* UNIDADES BRASSERIE */
@@ -424,6 +433,8 @@ body {
   width: 50%;
 }
 
+/* Boulangerie */
+
 #boulangerie {
   background-image: url("images/C. IMAGENS OUTRAS/boulangerieBG.svg");
   background-size: calc(100% + 10px);
@@ -443,6 +454,10 @@ body {
       var(--gray)
     )
     1;
+}
+
+#boulangerie > .logo {
+  display: none;
 }
 
 #boulangerie > .top {
@@ -474,7 +489,6 @@ body {
 
 #boulangerie > .top > .info > p {
   font-size: 24px;
-  margin-bottom: 16px;
 }
 
 #boulangerie > .menu {
@@ -494,7 +508,7 @@ body {
 #boulangerie > .links {
   position: absolute;
   top: 60px;
-  left: 40%;
+  right: 50%;
 }
 
 #boulangerie > .links > a > i {
