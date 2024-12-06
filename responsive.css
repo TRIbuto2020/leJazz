@@ -37,12 +37,19 @@
     margin-bottom: 16px;
   }
 
-  .links {
+  #brasserie > .menu {
     display: none;
   }
 
-  #brasserie > .menu {
-    display: none;
+  #brasserie > .top > .links {
+    position: absolute;
+    top: 82%;
+    left: 0%;
+  }
+
+  #brasserie > .top > .links > a > i {
+    font-size: 30px;
+    margin: 0;
   }
 
   .menuMobile {
@@ -103,6 +110,16 @@
 
   #petit > .top > .texto > p {
     font-size: 16px;
+  }
+
+  #petit > .top > .links {
+    position: absolute;
+    left: 10%;
+  }
+
+  #petit > .top > .links > a > i {
+    font-size: 30px;
+    margin: 0;
   }
 
   #petit > .bottom {
@@ -173,5 +190,16 @@
   #boulangerie > .menuMobile {
     background-color: var(--gray);
     margin-bottom: 0;
+  }
+
+  #boulangerie > .links {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+  }
+
+  #boulangerie > .links > a > i {
+    font-size: 30px;
+    margin-right: 0;
   }
 }
