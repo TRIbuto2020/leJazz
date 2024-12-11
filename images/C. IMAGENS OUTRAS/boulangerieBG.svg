@@ -21,15 +21,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.69682933"
-     inkscape:cx="228.89393"
-     inkscape:cy="586.22676"
-     inkscape:window-width="1152"
-     inkscape:window-height="793"
-     inkscape:window-x="1358"
-     inkscape:window-y="-8"
+     inkscape:zoom="11.149269"
+     inkscape:cx="1451.261"
+     inkscape:cy="687.26477"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="329"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Fundo" />
+     inkscape:current-layer="Agrupar50" />
   <defs
      id="defs7">
     <clipPath
@@ -211,14 +211,16 @@
             <path
                id="u36e2"
                transform="rotate(90,502.3268,578.7032)"
-               d="M 0,4.14729 H 432.974 V 0 H 0.433957"
-               style="fill:#7f765a;fill-rule:nonzero;stroke:#7f765a;stroke-width:1.19762;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none" />
+               d="M 0,4.14729 433.10854,2.7346414 432.974,0 H 0.433957"
+               style="fill:#7f765a;fill-rule:nonzero;stroke:#7f765a;stroke-width:1.19762;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+               sodipodi:nodetypes="cccc" />
           </g>
           <path
              id="u36e0"
              transform="rotate(90,-35.064995,39.811105)"
-             d="M 4.47218,4.14729 H 437.446 V 0 H 0"
-             style="fill:#7f765a;fill-rule:nonzero;stroke:#7f765a;stroke-width:1.19762;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none" />
+             d="M 4.47218,4.14729 H 437.446 L 437.51735,0.6183626 0,0"
+             style="fill:#7f765a;fill-rule:nonzero;stroke:#7f765a;stroke-width:1.19762;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+             sodipodi:nodetypes="cccc" />
         </g>
         <path
            id="u36d6"
