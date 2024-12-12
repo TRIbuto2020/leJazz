@@ -178,7 +178,7 @@ body {
 
 .historia {
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 58px;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
@@ -195,17 +195,19 @@ body {
 
 .historia > .esquerda > a > img {
   width: 60%;
-  border-radius: 8px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px 0px rgba(150, 150, 150, 1);
 }
 
 .historia p {
   font-size: 22px;
+  text-align: justify;
 }
 
 /* BRASSERIE */
 
 #brasserie {
-  border-radius: 380px 380px 0 0 / 240px 240px 0 0;
+  border-radius: 24px 24px 0 0;
   padding: 34px 24px 16px;
   border: 5px solid var(--wine);
   outline: 2px solid var(--wine);
@@ -224,7 +226,7 @@ body {
 #brasserie > .top > .links {
   position: absolute;
   top: 55%;
-  right: 3%;
+  right: 0%;
 }
 
 #brasserie > .top > .links > a > i {
@@ -259,13 +261,33 @@ body {
   gap: 16px;
 }
 
-.unidade > .endereco {
+.unidade .deliveryBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deliveryButton {
+  background-color: var(--wine);
+  color: white;
+  font-size: var(--fonteMenu);
+  height: 30px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.unidade .endereco,
+.andar {
   font-weight: bold;
   color: black;
   font-size: 24px;
 }
 
-.unidade > .endereco > i {
+.unidade > .endereco > i,
+.andar {
   font-weight: normal;
   font-style: normal;
 }
@@ -354,10 +376,14 @@ body {
   font-size: 38px;
   font-weight: normal;
   text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  margin-top: 16px;
 }
 #petit > .top > .texto > p {
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
+  line-height: 26px;
 }
 
 #petit > .top > .links > a > i {
@@ -440,6 +466,10 @@ body {
   width: 50%;
 }
 
+.radio > p > i {
+  font-family: ParmaPetit;
+}
+
 /* Boulangerie */
 
 #boulangerie {
@@ -471,16 +501,26 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+  position: relative;
 }
 
 #boulangerie > .top > .info {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: space-between;
+}
+
+.spacer {
+  width: 15px;
+  height: 19vw;
 }
 
 #boulangerie > .top > .info > .endereco {
   font-weight: bold;
+}
+
+#boulangerie .horarios {
+  margin-bottom: 16px;
 }
 
 #boulangerie > .top > .info > .endereco > i {
@@ -489,7 +529,7 @@ body {
 }
 
 #boulangerie > .top > .info > .endereco,
-.zap {
+#boulangerie > .top > .info > .zap {
   font-size: 30px;
   color: black;
 }
@@ -514,7 +554,7 @@ body {
 
 #boulangerie > .links {
   position: absolute;
-  top: 60px;
+  top: 110px;
   right: 50%;
 }
 
