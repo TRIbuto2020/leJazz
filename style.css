@@ -267,6 +267,12 @@ body {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1169px) {
+  .unidade .deliveryBox {
+    align-items: start;
+  }
+}
+
 .deliveryButton {
   background-color: var(--wine);
   color: white;
@@ -562,4 +568,8 @@ body {
   font-size: 54px;
   margin-right: 12px;
   color: black;
+}
+
+.hideDesktop {
+  display: none;
 }
